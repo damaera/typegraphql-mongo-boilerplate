@@ -6,7 +6,6 @@ import {
 } from "@typegoose/typegoose";
 import { ObjectId } from "mongodb";
 import { Field, ObjectType } from "type-graphql";
-import { Workspace } from "../workspace/workspace.entity";
 import { Token } from "../token/token.entity";
 
 @ObjectType()

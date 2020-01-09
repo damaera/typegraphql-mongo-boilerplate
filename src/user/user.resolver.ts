@@ -16,7 +16,6 @@ import { createNewPairToken } from "../token/token.helpers";
 import { UnauthorizedError } from "../errors/error";
 import { GraphQLError } from "graphql";
 import { Context } from "../context";
-import { WorkspaceModel } from "../workspace/workspace.entity";
 
 @Resolver(of => User)
 export class UserResolver {

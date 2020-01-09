@@ -7,7 +7,6 @@ import * as path from "path";
 import { buildSchema } from "type-graphql";
 
 import { UserResolver } from "./user/user.resolver";
-import { WorkspaceResolver } from "./workspace/workspace.resolver";
 
 import { TypegooseMiddleware } from "./middlewares/typegoose.middleware";
 import { ObjectIdScalar } from "./scalars/object-id.scalar";
