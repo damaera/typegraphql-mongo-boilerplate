@@ -2,9 +2,8 @@ import { AuthChecker } from "type-graphql";
 
 import { Context } from "./context";
 import { ObjectId } from "mongodb";
-import { Roles } from "./types";
 
-export let authChecker: AuthChecker<Context, Roles> = (
+export let authChecker: AuthChecker<Context> = (
   { root, args, context, info },
   roles
 ) => {
