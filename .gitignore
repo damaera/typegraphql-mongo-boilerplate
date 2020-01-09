@@ -105,3 +105,5 @@ dist
 
 # generated schema
 schema.graphql
+
+.DS_Store
